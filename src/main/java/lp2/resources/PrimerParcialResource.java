@@ -1,4 +1,4 @@
-package lp2.parcial;
+package lp2.resources;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
 @Path("/api/algorithms")
-public class ParcialUnoResource {
+public class PrimerParcialResource {
   @GET
   @Path("/prime-numbers/{number}")
   @Produces(MediaType.APPLICATION_JSON)
